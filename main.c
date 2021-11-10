@@ -59,7 +59,7 @@
 /* Private variables ---------------------------------------------------------*/
 __IO uint32_t SH_period = 20;
 __IO uint32_t ICG_period = 500000;
-int test1;
+int test2;
 uint16_t aTxBuffer[2 * CCDSize+100]= {0};
 uint32_t avgBuffer[2 * CCDSize] = {0};
 __IO uint8_t aRxBuffer[RxDataSize] = {0};
